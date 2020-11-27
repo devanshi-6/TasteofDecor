@@ -24,9 +24,10 @@
         <nav class="  mynav">
             <div class="nav-wrapper">
                 <div class="container">
-                <a href="#header" class="brand-logo ">
-                    <img class=" responsive-img" src="images/flogo.png"  style="border-radius:6px; height: 4rem;padding-top: .5rem;">
+                <a href="" class="brand-logo ">
+                    <img class=" responsive-img " src="images/flogo.png"  style="border-radius:6px; height: 4rem;padding-top: .5rem;">
                 </a>
+
                 <a href="#" class="sidenav-trigger" data-target="mobile-links">
                     <i class="material-icons">menu</i>
                 </a>
@@ -227,14 +228,14 @@
     <section id="testimonials"> 
         <br><br>
         <div class="container">
-            <h1 class="center-align">TESTIMONIALS</h1>
+            <h3 class="center-align">TESTIMONIALS</h3>
             <h4 class="center-align">Here are some reviews from our satisfied customers</h4>
             <div class="row" style="font-size: 2rem;">
                 <div class="center-align ">
                     <div id="testimonial-slider" class="owl-carousel">
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="images/tst1.png" alt="">
+                                <img src="images/tst1.png" alt="" class="responsive-img">
                             </div>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
@@ -246,7 +247,7 @@
          
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="images/tst2.png" alt="">
+                                <img src="images/tst2.png" alt="" class="responsive-img">
                             </div>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
@@ -257,7 +258,7 @@
                         </div>
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="images/tst3.jpg" >
+                                <img src="images/tst3.jpg" class="responsive-img">
                             </div>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
@@ -269,7 +270,7 @@
          
                         <div class="testimonial">
                             <div class="pic">
-                                <img src="images/tst4.jpg" alt="">
+                                <img src="images/tst4.jpg" class="responsive-img" alt="">
                             </div>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda deleniti dolor ipsum molestias mollitia ut. Aliquam aperiam corporis cumque debitis delectus dignissimos. Lorem ipsum dolor sit amet, consectetur.
@@ -376,6 +377,7 @@
     <script>
     
     $(document).ready(function(){
+        $('.sidenav').sidenav();
         $('.tabs').tabs();
             });
         </script>
@@ -398,10 +400,10 @@
         autoPlay:true
         });
         
-        $("#srh").mouseover(function(e){
-            e.preventDefault();
-            $("#search").toggleClass("hidden");
-        })
+        // $("#srh").mouseover(function(e){
+        //     e.preventDefault();
+        //     $("#search").toggleClass("hidden");
+        // })
         
         
 
